@@ -1,4 +1,4 @@
-my_dict {'Anton': 1984, 'Boris': 1991, 'Pavel': 2001, 'Elena': 1989}
+my_dict = {'Anton': 1984, 'Boris': 1991, 'Pavel': 2001, 'Elena': 1989}
 print (my_dict)
 print (my_dict['Boris'])
 print (my_dict['Diana'])
@@ -6,9 +6,24 @@ my_dict.update({'Stepan': 1998,
 'Alex': 1999})
 print (my_dict.get('Boris'))
 print (my_dict)
-my_set {1, 3, 5, 7, 3, 5, 1, 'step up', True)
+my_set = {1, 3, 5, 7, 3, 5, 1, 'step up', True)
 print (my_set)
 my_set = my_set.add(3.14, 'pi')
-my_set = my_set.discard('pi')
+my_set = my_set.discard(5)
 print (my_set)
-# Modul1-7
+
+    # Modul1-7
+grades = [[5, 3, 3, 5, 4], [2, 2, 2, 3], [4, 5, 5, 2], [4, 4, 3], [5, 5, 5, 4, 5]]
+students = {'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaron'}
+grade_A = grades[0]
+grade_B = grades[1]
+grade_J = grades[2]
+grade_K = grades[3]
+grade_S = grades[4]
+midd_note_A =sum(grade_A[0:-1])/len(grade_A)
+midd_note_B =sum(grade_B[0:-1])/len(grade_B)
+midd_note_J =sum(grade_J[0:-1])/len(grade_J)
+midd_note_K =sum(grade_K[0:-1])/len(grade_K)
+midd_note_S =sum(grade_S[0:-1])/len(grade_S)
+stud_l = list(students) # ?! м.б. попробовать tuple
+print ({stud_l[4]: midd_note_A, stud_l[1]: midd_note_B, stud_l[0]: midd_note_J, stud_l[3]: midd_note_K, stud_l[2]: midd_note_S})
