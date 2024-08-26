@@ -1,0 +1,6 @@
+my_dict {'Anton': 1984, 'Boris': 1991, 'Pavel': 2001, 'Elena': 1989}
+print (my_dict)
+print (example[-1])
+print (example[5:])
+print (example[::-1])
+print (example[1::2])
